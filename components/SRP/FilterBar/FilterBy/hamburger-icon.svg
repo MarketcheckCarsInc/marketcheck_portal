@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.01 9.25">
+  <defs>
+      <style>.cls-1{fill:none;stroke:#666;stroke-miterlimit:10;stroke-width:0.75px;}.cls-2{fill:#666;}</style>
+  </defs>
+  <line class="cls-1" x1="3.35" y1="0.63" x2="12.01" y2="0.63"/>
+  <line class="cls-1" x1="3.35" y1="4.63" x2="12.01" y2="4.63"/>
+  <line class="cls-1" x1="3.35" y1="8.54" x2="12.01" y2="8.54"/>
+  <circle class="cls-2" cx="0.68" cy="0.68" r="0.68"/>
+  <circle class="cls-2" cx="0.68" cy="4.61" r="0.68"/>
+  <circle class="cls-2" cx="0.68" cy="8.56" r="0.68"/>
+</svg>

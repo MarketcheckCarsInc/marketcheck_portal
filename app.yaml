@@ -1,0 +1,18 @@
+env: flex
+runtime: nodejs
+skip_files:
+  - yarn\.lock
+  - node_modules/
+  - .git/
+env_variables:
+  API_VAR: 'THErFHXGErewc0wCsE5ac7PAM8a6dmqz'
+  API_HOST: 'marketcheck-prod.apigee.net'
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+  cpu_utilization:
+    target_utilization: 0.5
+#handlers:
+#- url: .*
+#  script: index.js
+#  secure: always

@@ -1,0 +1,117 @@
+{
+  "name": "marketcheck",
+  "version": "0.1.2",
+  "description": "frontend code of marketcheck",
+  "main": "index.js",
+  "repository": "git@github.com:zerebral/marketcheck.git",
+  "author": "Aulison Dsilva <aulison@zerebral.co.in>",
+  "license": "MIT",
+  "scripts": {
+    "lint:css": "stylelint './components/**/*.js'",
+    "lint:js": "standard --verbose | standard-reporter --stylish",
+    "lint": "npm run lint:css; npm run lint:js",
+    "dev": "node server",
+    "build": "next build",
+    "start": "NODE_ENV=production node server",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "test-ci": "jest -ci -b --debug",
+    "deploy": "now",
+    "postdeploy": "now alias"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "dependencies": {
+    "babel-plugin-inline-dotenv": "^1.1.1",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-styled-components": "^1.2.1",
+    "babel-plugin-styled-components-named": "^0.1.1",
+    "babel-plugin-transform-inline-environment-variables": "^0.2.0",
+    "class-autobind": "^0.1.4",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "es6-promise": "^4.1.1",
+    "express": "^4.16.2",
+    "fontfaceobserver": "^2.0.13",
+    "geo-loc-utils": "0.0.2",
+    "google-cloud": "^0.57.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lru-cache": "^4.1.1",
+    "moment": "^2.19.1",
+    "next": "^4.1.0",
+    "next-routes": "^1.2.0",
+    "node-geocoder": "^3.21.1",
+    "nprogress": "^0.2.0",
+    "polished": "^1.8.1",
+    "prop-types": "^15.6.0",
+    "rc-slider": "^8.3.3",
+    "react": "^16.0.0",
+    "react-async-script-loader": "^0.3.0",
+    "react-aux": "^1.1.0",
+    "react-collapse": "^4.0.3",
+    "react-dom": "^16.0.0",
+    "react-ga": "^2.3.5",
+    "react-loading-animation": "^1.4.0",
+    "react-moment": "^0.6.5",
+    "react-motion": "^0.5.2",
+    "react-native": "^0.51.0",
+    "react-native-google-places-autocomplete": "^1.3.6",
+    "react-places-autocomplete": "^5.3.1",
+    "react-scroll": "^1.6.1",
+    "react-simple-loading": "^0.0.3",
+    "react-slick": "^0.15.4",
+    "recharts": "^1.0.0-apha.5",
+    "robots.txt": "^1.1.0",
+    "serve-static": "^1.13.1",
+    "styled-components": "^2.2.1",
+    "webpack": "^3.10.0",
+    "yes-https": "^0.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-inline-import": "^2.0.6",
+    "downshift": "^1.14.0",
+    "enzyme": "^3.1.0",
+    "enzyme-to-json": "^3.1.4",
+    "file-loader": "^1.1.5",
+    "jest": "^21.2.1",
+    "jest-styled-components": "^4.7.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.0.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3",
+    "standard-reporter": "^1.0.5",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-processor-styled-components": "^1.0.0"
+  },
+  "now": {
+    "alias": [
+      "marketcheck",
+      "cars.marketcheck.com"
+    ],
+    "public": false,
+    "env": {
+      "API_HOST": "THErFHXGErewc0wCsE5ac7PAM8a6dmqz",
+      "API_VAR": "marketcheck-prod.apigee.net"
+    }
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "stylelint": {
+    "processors": [
+      "stylelint-processor-styled-components"
+    ],
+    "extends": "stylelint-config-standard",
+    "syntax": "scss"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

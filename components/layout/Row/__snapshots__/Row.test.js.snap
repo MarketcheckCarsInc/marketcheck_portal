@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row Component Row Passes shallow snapshot 1`] = `
+.c0 {
+  margin: 0 -0.625rem;
+}
+
+.c0::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+<div
+  className="c0"
+/>
+`;

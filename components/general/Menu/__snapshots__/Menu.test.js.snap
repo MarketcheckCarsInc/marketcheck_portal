@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Component Menu Passes the snapshot 1`] = `
+<nav
+  className="Menu-s17awzsc-0 hAdWQB"
+/>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Component Container Passes the snapshot 1`] = `
+<div
+  className="Container-s1gwg6so-0 jOdNxa"
+/>
+`;

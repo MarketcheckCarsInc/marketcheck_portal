@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icons Component Icons Passes the snapshot 1`] = `
+<div
+  className="Icons-s15rosyg-0 kmRZS"
+>
+  <a
+    className="Search__A-r2sj56-0 injnFb"
+  >
+    <svg
+      className="Search-r2sj56-1 ixjDcK"
+      viewBox="0 0 14.86 14.62"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14.15 14.62l-4.4-4.48a5.83 5.83 0 1 1 .68-.73l4.43 4.51zM5.83 1a4.83 4.83 0 1 0 4.83 4.83A4.84 4.84 0 0 0 5.83 1z"
+      />
+    </svg>
+  </a>
+  <a
+    className="Account__A-atchjn-0 bSTpxW"
+  >
+    <svg
+      className="Account__User-atchjn-1 kGfKyf"
+      viewBox="0 0 12.36 15.64"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M6.18 7.86a3.93 3.93 0 1 0-3.93-3.93 3.93 3.93 0 0 0 3.93 3.93zm0-6.86a2.93 2.93 0 1 1-2.93 2.93A2.93 2.93 0 0 1 6.18 1zm6.18 14.64h-1a5.18 5.18 0 0 0-10.36 0H0a6.18 6.18 0 0 1 12.36 0z"
+        fill="#fff"
+      />
+    </svg>
+  </a>
+</div>
+`;

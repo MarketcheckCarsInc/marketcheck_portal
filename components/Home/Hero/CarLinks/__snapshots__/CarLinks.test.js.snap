@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarLinks Component CarLinks Passes shallow snapshot 1`] = `
+<CarLinks>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      SUV
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Sedan
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Pickup
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Coupe
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Hatchback
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Convertible
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Wagon
+    </a>
+  </CarLinks__CarLink>
+  <CarLinks__CarLink>
+    <a
+      href="#"
+    >
+      Crossover
+    </a>
+  </CarLinks__CarLink>
+</CarLinks>
+`;

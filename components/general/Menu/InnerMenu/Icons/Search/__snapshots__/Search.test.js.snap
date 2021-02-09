@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component Search Passes the snapshot 1`] = `
+<a
+  className="Search__A-r2sj56-0 injnFb"
+>
+  <svg
+    className="Search-r2sj56-1 ixjDcK"
+    viewBox="0 0 14.86 14.62"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M14.15 14.62l-4.4-4.48a5.83 5.83 0 1 1 .68-.73l4.43 4.51zM5.83 1a4.83 4.83 0 1 0 4.83 4.83A4.84 4.84 0 0 0 5.83 1z"
+    />
+  </svg>
+</a>
+`;
